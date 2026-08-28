@@ -23,3 +23,12 @@ Consigli / Tips
   scegli una foto che regga il testo bianco al centro-basso.
 - Vuoi altri nomi o altre foto? Sono tutti elencati nel blocco
   `PHOTO SLOTS` in cima a `assets/css/style.css`.
+
+## Regole per la scelta degli scatti
+
+- **Niente foto di poppa dove si legge il nome sullo specchio**: la barca porta
+  ancora il nome del venditore, e sul sito si chiama Viva. Prua, tre quarti,
+  fianco e interni vanno benissimo.
+- Meglio scatti in acqua o all'ormeggio che a secco sul travel lift.
+- Per la `hero.jpg` serve un orizzontale largo, con spazio libero nella metà
+  bassa: lì sopra ci va il nome "Viva" in grande.

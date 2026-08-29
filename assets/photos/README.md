@@ -32,3 +32,11 @@ Consigli / Tips
 - Meglio scatti in acqua o all'ormeggio che a secco sul travel lift.
 - Per la `hero.jpg` serve un orizzontale largo, con spazio libero nella metà
   bassa: lì sopra ci va il nome "Viva" in grande.
+
+## Nota sulla `hero.jpg` attuale
+
+L'immagine di apertura in repo **non è una foto di Viva né di Biscayne Bay**:
+è un'immagine generata, messa lì come segnaposto perché il sito non restasse
+spoglio. Va sostituita appena c'è uno scatto vero. Basta sovrascrivere il file
+con lo stesso nome. Se invece la cancelli e basta, l'apertura torna al mare
+dipinto in CSS, che è disegnato a mano e non finge di essere una fotografia.

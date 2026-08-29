@@ -200,12 +200,6 @@ a{ color:inherit; }
   -webkit-mask-image:radial-gradient(58% 78% at 50% 0%, #000 10%, transparent 76%);
           mask-image:radial-gradient(58% 78% at 50% 0%, #000 10%, transparent 76%);
 }
-.hero__boat{
-  position:absolute; z-index:2;
-  left:36%; top:47.6%; translate:-50% -76%;
-  width:clamp(230px,31vw,470px); height:auto;
-  filter:drop-shadow(0 8px 20px rgba(4,16,27,.45));
-}
 .hero__swell{
   position:absolute; z-index:2; left:0; right:0; bottom:0; height:56%;
   background:linear-gradient(to top, rgba(4,13,22,.96) 18%, rgba(5,15,26,.55) 62%, rgba(5,15,26,0) 100%);
@@ -215,13 +209,14 @@ a{ color:inherit; }
 .hero__media::before{
   content:""; position:absolute; inset:0; z-index:3;
   background-image:var(--photo);
-  background-size:cover; background-position:center 62%;
+  background-size:cover; background-position:center 44%;
 }
 .hero__media::after{
   content:""; position:absolute; inset:0; z-index:4;
-  background:linear-gradient(to top, rgba(6,17,28,.94) 0%, rgba(6,17,28,.4) 44%, rgba(6,17,28,.52) 100%);
+  background:linear-gradient(to top, rgba(5,15,26,.93) 0%, rgba(5,15,26,.62) 30%, rgba(5,15,26,.2) 58%, rgba(5,15,26,.34) 100%);
 }
 .hero__inner{ position:relative; z-index:1; text-align:center; max-width:46rem; }
+.hero .eyebrow{ text-shadow:0 1px 14px rgba(5,15,26,.75); }
 
 .eyebrow{
   margin:0 0 1.5rem; font-size:.7rem; letter-spacing:.34em; text-transform:uppercase;
@@ -241,7 +236,8 @@ a{ color:inherit; }
 .hero__sub{
   margin:0 auto 2.6rem; max-width:34rem;
   font-size:clamp(.92rem,1.3vw,1.06rem);
-  letter-spacing:.05em; color:rgba(242,238,229,.86);
+  letter-spacing:.05em; color:rgba(242,238,229,.88);
+  text-shadow:0 1px 14px rgba(5,15,26,.65);
 }
 
 .btn{

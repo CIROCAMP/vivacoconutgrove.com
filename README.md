@@ -51,6 +51,11 @@ output directory `.`.
 
 ## Dati tecnici
 
+**Nota:** la `hero.jpg` attualmente in repo è un'immagine generata, non una
+foto di Viva: va sostituita con uno scatto vero (vedi
+`assets/photos/README.md`). Il profilo stilizzato della barca è stato rimosso
+dall'apertura: senza una foto di riferimento non era quello del Verve 48.
+
 Le specifiche in pagina sono quelle dichiarate dal cantiere per il modello
 Verve 48 (15,03 m f.t., 3 × Mercury Verado 600 hp, 50 nodi max, 37 di crociera,
 2.340 l di carburante, 2 cabine / 4 posti letto, carena SVVT di Michael Peters

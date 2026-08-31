@@ -35,8 +35,5 @@ Consigli / Tips
 
 ## Nota sulla `hero.jpg` attuale
 
-L'immagine di apertura in repo **non è una foto di Viva né di Biscayne Bay**:
-è un'immagine generata, messa lì come segnaposto perché il sito non restasse
-spoglio. Va sostituita appena c'è uno scatto vero. Basta sovrascrivere il file
-con lo stesso nome. Se invece la cancelli e basta, l'apertura torna al mare
-dipinto in CSS, che è disegnato a mano e non finge di essere una fotografia.
+`hero.jpg` è una foto reale di questa unità dalla listing (profilo su Biscayne
+Bay; il nome non è sullo specchio di poppa).

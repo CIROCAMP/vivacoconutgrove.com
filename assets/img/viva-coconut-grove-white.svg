@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">VIVA Coconut Grove logo</title>
+  <desc id="desc">White horizontal VIVA logo with Coconut Grove below on a transparent background.</desc>
+  <g fill="#FFFFFF">
+    <path d="M80 80h75l155 340 155-340h75L310 520z"/>
+    <rect x="625" y="80" width="70" height="440"/>
+    <path d="M760 80h75l155 340 155-340h75L990 520z"/>
+    <path fill-rule="evenodd" d="M1230 520l150-440h70l150 440h-75l-35-105h-150l-35 105zm132-170h106l-53-160z"/>
+  </g>
+  <text x="800" y="595" text-anchor="middle" fill="#FFFFFF"
+        font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="500"
+        letter-spacing="18">COCONUT GROVE</text>
+</svg>

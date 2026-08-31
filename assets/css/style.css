@@ -28,10 +28,10 @@
 
 /* ── PHOTO SLOTS ─────────────────────────────────────────── */
 .hero__media        { --photo: url("../photos/hero.jpg"); }
-.shot[data-shot="1"]{ --photo: url("../photos/01-bow.jpg"); }
+.shot[data-shot="1"]{ --photo: url("../photos/01-bow.jpg"); background-position:center 72%; }
 .shot[data-shot="2"]{ --photo: url("../photos/02-cockpit.jpg"); }
-.shot[data-shot="3"]{ --photo: url("../photos/03-beach-club.jpg"); }
-.shot[data-shot="4"]{ --photo: url("../photos/04-helm.jpg"); }
+.shot[data-shot="3"]{ --photo: url("../photos/03-beach-club.jpg"); background-position:center 58%; }
+.shot[data-shot="4"]{ --photo: url("../photos/04-helm.jpg"); background-position:center 45%; }
 .shot[data-shot="5"]{ --photo: url("../photos/05-master-cabin.jpg"); }
 .shot[data-shot="6"]{ --photo: url("../photos/06-marina.jpg"); }
 
@@ -99,16 +99,10 @@ a{ color:inherit; }
   padding-block:.7rem;
 }
 
-.wordmark{ display:flex; align-items:center; gap:.7rem; text-decoration:none; margin-right:auto; }
-.wordmark__mark{
-  display:grid; place-items:center; width:2.05rem; height:2.05rem;
-  border:1px solid var(--brass); border-radius:50%;
-  font-family:var(--serif); font-size:1.05rem; color:var(--brass-lt);
-  padding-left:.04em;
-}
-.wordmark__text{
-  font-family:var(--serif); font-size:1.5rem; letter-spacing:.11em;
-  text-transform:uppercase; line-height:1;
+.wordmark{ display:flex; align-items:center; margin-right:auto; text-decoration:none; }
+.wordmark__logo{
+  display:block; height:34px; width:auto;
+  filter:drop-shadow(0 1px 8px rgba(5,15,26,.35));
 }
 
 .nav{ display:flex; gap:clamp(1.1rem,2.4vw,2.1rem); }
@@ -228,10 +222,15 @@ a{ color:inherit; }
 }
 
 .hero__title{
-  font-size:clamp(4.6rem,17vw,11rem);
-  letter-spacing:.03em; line-height:.9;
-  margin:0 0 .55rem;
-  text-shadow:0 .04em .5em rgba(6,17,28,.55);
+  margin:0 0 .7rem;
+  line-height:0;
+}
+.hero__logo{
+  display:block;
+  width:clamp(13.75rem, 38vw, 22rem);
+  height:auto;
+  margin-inline:auto;
+  filter:drop-shadow(0 10px 28px rgba(5,15,26,.55));
 }
 .hero__sub{
   margin:0 auto 2.6rem; max-width:34rem;
@@ -400,10 +399,9 @@ a{ color:inherit; }
 
 /* ── FOOTER ──────────────────────────────────────────────── */
 .footer{ background:var(--ink); padding:3.5rem 0; border-top:var(--rule); text-align:center; }
-.footer__mark{
-  display:inline-grid; place-items:center; width:2.2rem; height:2.2rem;
-  border:1px solid var(--brass); border-radius:50%;
-  font-family:var(--serif); color:var(--brass-lt); margin-bottom:1.2rem;
+.footer__logo{
+  display:block; height:56px; width:auto;
+  margin:0 auto 1.2rem;
 }
 .footer p{ margin:.4rem 0; font-size:.74rem; letter-spacing:.16em; text-transform:uppercase; color:rgba(242,238,229,.5); }
 .footer__fine{ text-transform:none !important; letter-spacing:.03em !important; font-size:.7rem !important; color:rgba(242,238,229,.3) !important; max-width:40rem; margin-inline:auto !important; }
@@ -418,6 +416,7 @@ a{ color:inherit; }
   .nav{ display:none; }
   .burger{ display:flex; }
   .topbar{ gap:1.1rem; }
+  .wordmark__logo{ height:28px; }
 }
 @media (max-width:560px){
   .spec th,.spec td{ display:block; width:auto; padding-block:.35rem; }

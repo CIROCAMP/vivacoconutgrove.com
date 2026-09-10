@@ -11,7 +11,9 @@ Sito statico: nessun build, nessuna dipendenza da installare. Si apre
 index.html              pagina unica (IT/EN nello stesso markup)
 assets/css/style.css    tutto lo stile + il blocco PHOTO SLOTS
 assets/js/site.js       lingua, menu mobile, animazioni (opzionali)
-assets/img/favicon.svg  monogramma V
+assets/img/viva-lockup.png          lockup ufficiale (navy, header)
+assets/img/viva-lockup-white.png    reverse su fondo scuro (footer)
+assets/img/favicon.svg              monogramma V (navy)
 assets/photos/          le foto vere — vedi il README lì dentro
 CNAME                   dominio per GitHub Pages
 ```

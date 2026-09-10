@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="10" fill="#06111c"/>
-  <circle cx="32" cy="32" r="24" fill="none" stroke="#b7935c" stroke-width="1.6"/>
-  <text x="32" y="43" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
-        font-size="30" fill="#d9bd8b">V</text>
+  <rect width="64" height="64" rx="12" fill="#071B2A"/>
+  <g transform="translate(9.4,13.8) scale(0.330)">
+    <path d="M 0.00 0.00 L 67.00 125.00 L 72.00 129.00 L 137.00 0.00 L 129.00 0.00 L 79.00 105.00 L 20.00 1.00 Z" fill="#F3F2ED"/>
+  </g>
 </svg>

@@ -99,16 +99,16 @@ a{ color:inherit; }
   padding-block:.7rem;
 }
 
-.wordmark{ display:flex; align-items:center; gap:.7rem; text-decoration:none; margin-right:auto; }
-.wordmark__mark{
-  display:grid; place-items:center; width:2.05rem; height:2.05rem;
-  border:1px solid var(--brass); border-radius:50%;
-  font-family:var(--serif); font-size:1.05rem; color:var(--brass-lt);
-  padding-left:.04em;
+.wordmark{
+  display:flex; align-items:center; margin-right:auto; text-decoration:none;
+  background:#f3f2ed;
+  padding:.2rem .55rem .22rem;
+  border-radius:2px;
 }
-.wordmark__text{
-  font-family:var(--serif); font-size:1.5rem; letter-spacing:.11em;
-  text-transform:uppercase; line-height:1;
+.wordmark__logo{
+  display:block;
+  height:48px;
+  width:auto;
 }
 
 .nav{ display:flex; gap:clamp(1.1rem,2.4vw,2.1rem); }
@@ -400,10 +400,11 @@ a{ color:inherit; }
 
 /* ── FOOTER ──────────────────────────────────────────────── */
 .footer{ background:var(--ink); padding:3.5rem 0; border-top:var(--rule); text-align:center; }
-.footer__mark{
-  display:inline-grid; place-items:center; width:2.2rem; height:2.2rem;
-  border:1px solid var(--brass); border-radius:50%;
-  font-family:var(--serif); color:var(--brass-lt); margin-bottom:1.2rem;
+.footer__logo{
+  display:block;
+  height:52px;
+  width:auto;
+  margin:0 auto 1.2rem;
 }
 .footer p{ margin:.4rem 0; font-size:.74rem; letter-spacing:.16em; text-transform:uppercase; color:rgba(242,238,229,.5); }
 .footer__fine{ text-transform:none !important; letter-spacing:.03em !important; font-size:.7rem !important; color:rgba(242,238,229,.3) !important; max-width:40rem; margin-inline:auto !important; }
@@ -418,6 +419,7 @@ a{ color:inherit; }
   .nav{ display:none; }
   .burger{ display:flex; }
   .topbar{ gap:1.1rem; }
+  .wordmark__logo{ height:44px; }
 }
 @media (max-width:560px){
   .spec th,.spec td{ display:block; width:auto; padding-block:.35rem; }
